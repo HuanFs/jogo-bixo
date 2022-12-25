@@ -7,7 +7,7 @@ body{
 	height:100vh;
 	justify-content:center;
 	align-items:center;
-	background-image:url("C:/Users/rafae/Desktop/JOGO DO BIXO/assets/img/ww.jpg");
+	background-image:url("assets/img/ww.jpg");
 	background-size:cover;
 }
 #app{
