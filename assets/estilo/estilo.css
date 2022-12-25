@@ -7,7 +7,8 @@ body{
 	height:100vh;
 	justify-content:center;
 	align-items:center;
-	background-image:url("assets/img/ww.jpg");
+	background-image: linear-gradient(to bottom left, #ee1e0f 0%, #f28806 50%, #eef604 80%);
+	background-image:url("https://th.bing.com/th/id/R.83bc980c5371ea4899ca6d750bf1b657?rik=iX3sWamheLEdXA&pid=ImgRaw&r=0");
 	background-size:cover;
 }
 #app{
