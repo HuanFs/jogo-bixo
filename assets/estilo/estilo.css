@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	display:flex;
+	height:100vh;
+	justify-content:center;
+	align-items:center;
+	background-image:url("C:/Users/rafae/Desktop/JOGO DO BIXO/assets/img/ww.jpg");
+	background-size:cover;
+}
+#app{
+	width:500px;
+	height:520px;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:column;
+	align-items:center;
+	background-color:rgba(255, 132, 0, 0.519);
+	backdrop-filter: blur(5px);
+	border-radius:10px;
+}
+#campos{
+	height:30%;
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	position:fixed;
+	top:5%;
+}
+#campos button{
+	width:100%;
+	height:20%;
+	margin-top:1%;
+	color:#fff;
+	border:2px solid #fff;
+	background:transparent;
+}
+#campos button:hover{
+	cursor:pointer;
+}
+#campos input{
+	text-align:center;
+	font-size:2em;
+	border:2px solid #000;
+	outline:none;
+	box-sizing: border-box;
+	width:100%;
+	height:39%;
+}
+#imagem{
+	width:70%;
+	display:flex;
+	flex-direction:column;
+}
+h1{
+	text-align:center;
+	color:#fff;
+}
