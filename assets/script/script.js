@@ -19,9 +19,9 @@ function Verificar(){
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
-        imagem.style.marginBottom="-200px";
+        imagem.style.marginTop="5%px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Abelha";
         imagem.appendChild(texto);
@@ -39,7 +39,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Bode";
         imagem.appendChild(texto);
@@ -54,7 +54,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Canguru";
         imagem.appendChild(texto);
@@ -69,7 +69,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Elefante";
         imagem.appendChild(texto);
@@ -84,7 +84,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Furão";
         imagem.appendChild(texto);
@@ -99,7 +99,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Girafa";
         imagem.appendChild(texto);
@@ -114,7 +114,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Hipopotamo";
         imagem.appendChild(texto);
@@ -129,7 +129,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Iguana";
         imagem.appendChild(texto);
@@ -144,7 +144,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Jacaré";
         imagem.appendChild(texto);
@@ -159,7 +159,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Leão";
         imagem.appendChild(texto);
@@ -174,7 +174,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Macaco";
         imagem.appendChild(texto);
@@ -189,7 +189,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Onça";
         imagem.appendChild(texto);
@@ -204,7 +204,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Peixe";
         imagem.appendChild(texto);
@@ -219,7 +219,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Rato";
         imagem.appendChild(texto);
@@ -234,7 +234,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Sapo";
         imagem.appendChild(texto);
@@ -249,7 +249,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Tigre";
         imagem.appendChild(texto);
@@ -264,7 +264,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Urso";
         imagem.appendChild(texto);
@@ -279,7 +279,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Vaca";
         imagem.appendChild(texto);
@@ -294,7 +294,7 @@ function Verificar(){
         img.style.width="100%";
         imagem.style.marginBottom="-200px";
         img.style.boxSizing="border-box";
-        let texto=document.createElement('h1');
+        let texto=document.createElement('h3');
         texto.id="texto";
         texto.innerHTML="Zebra";
         imagem.appendChild(texto);
@@ -311,4 +311,5 @@ function Limpar(){
     document.getElementById('animal').remove();
     document.getElementById('texto').remove();
     display.value="";
+    display.style.border="none";
 }
