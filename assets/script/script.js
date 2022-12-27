@@ -15,7 +15,7 @@ function Verificar(){
     if(display.value==1){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/abelha.jpg";
+        img.src="../assets/img/abelha.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -33,7 +33,7 @@ function Verificar(){
     }else if(display.value==2){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/bode.jpg";
+        img.src="../assets/img/bode.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -48,7 +48,7 @@ function Verificar(){
     }else if(display.value==3){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/canguru.jpg";
+        img.src="../assets/img/canguru.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -63,7 +63,7 @@ function Verificar(){
     }else if(display.value==4){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/elefante.jpg";
+        img.src="../assets/img/elefante.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -78,7 +78,7 @@ function Verificar(){
     }else if(display.value==5){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/furao.jpg";
+        img.src="../assets/img/furao.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -93,7 +93,7 @@ function Verificar(){
     }else if(display.value==6){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/girafa.jpg";
+        img.src="../assets/img/girafa.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -108,7 +108,7 @@ function Verificar(){
     }else if(display.value==7){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/hipopotamo.jpg";
+        img.src="../assets/img/hipopotamo.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -123,7 +123,7 @@ function Verificar(){
     }else if(display.value==8){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/iguana.jpg";
+        img.src="../assets/img/iguana.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -138,7 +138,7 @@ function Verificar(){
     }else if(display.value==9){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/jacare.jpg";
+        img.src="../assets/img/jacare.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -153,7 +153,7 @@ function Verificar(){
     }else if(display.value==10){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/leao.jpg";
+        img.src="../assets/img/leao.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -168,7 +168,7 @@ function Verificar(){
     }else if(display.value==11){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/macaco.jpg";
+        img.src="../assets/img/macaco.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -183,7 +183,7 @@ function Verificar(){
     }else if(display.value==12){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/onca.jpg";
+        img.src="../assets/img/onca.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -198,7 +198,7 @@ function Verificar(){
     }else if(display.value==13){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/peixe.jpg";
+        img.src="../assets/img/peixe.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -213,7 +213,7 @@ function Verificar(){
     }else if(display.value==14){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/rato.jpg";
+        img.src="../assets/img/rato.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -228,7 +228,7 @@ function Verificar(){
     }else if(display.value==15){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/sapo.jpg";
+        img.src="../assets/img/sapo.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -243,7 +243,7 @@ function Verificar(){
     }else if(display.value==16){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/tigre.jpg";
+        img.src="../assets/img/tigre.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -258,7 +258,7 @@ function Verificar(){
     }else if(display.value==17){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/urso.jpg";
+        img.src="../assets/img/urso.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -273,7 +273,7 @@ function Verificar(){
     }else if(display.value==18){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/vaca.jpg";
+        img.src="../assets/img/vaca.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -288,7 +288,7 @@ function Verificar(){
     }else if(display.value==19){
         let imagem = document.getElementById('imagem');
         let img=document.createElement('img');
-        img.src="assets/img/zebra.jpg";
+        img.src="../assets/img/zebra.jpg";
         img.id="animal";
         imagem.appendChild(img);
         img.style.width="100%";
@@ -312,4 +312,24 @@ function Limpar(){
     document.getElementById('texto').remove();
     display.value="";
     display.style.border="none";
+}
+
+
+function Logar(){
+    let usuario = document.getElementById('usuario');
+    let senha = document.getElementById('senha');
+
+    if(usuario.value=="EmiliSouza"&&senha.value=="Eab424jg"){
+        window.open("app/app.html","Toque-Bixo");
+        usuario.value="";
+        senha.value="";
+    }else{
+        alert('Insira seu Usuário e sua Senha!');
+    }
+}
+function Clear(){
+    let usuario = document.getElementById('usuario');
+    let senha = document.getElementById('senha');
+    usuario.value="";
+    senha.value="";
 }

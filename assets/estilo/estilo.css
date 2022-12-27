@@ -96,7 +96,6 @@ body{
 }
 #formulario label{
 	font:normal 0.8em Arial;
-	margin-left:0.5em;
 	color:#fff;
 	text-shadow:1px 1px rgb(64, 63, 63);
 }
@@ -105,7 +104,6 @@ article{
 	justify-content:space-between;
 	height:50px;
 	margin-top:5px;
-	border:1px solid orange;
 }
 article button{
 	height:100%;
@@ -133,6 +131,14 @@ article button:hover{
 
 
 
+#popup{
+	display:absolute;
+	top:auto;
+	left:auto;
+}
+
+
+
 @media screen and (max-width:650px){
 	body{
 		background-image:url("https://th.bing.com/th/id/OIP.8YjFtRzpGfWhL3GfEGNMiQHaNL?pid=ImgDet&rs=1");
@@ -143,4 +149,19 @@ article button:hover{
 		width:80%;
 		height:80%;
 	}
+	#area-log{
+		display:flex;
+		flex-direction:column;
+		border:1px solid blue;
+		height:100vh;
+		background-image:url("https://th.bing.com/th/id/OIP._g2Y5pkC44NL_D8x4FpQyQHaFj?pid=ImgDet&rs=1");
+		background-size:100% 100%;
+	}
+	#informacoes{
+		border-top:8px solid black 0.5;
+		height:25%;	
+	}
+	#formulario{
+		margin-top:20%;
+	} 
 }

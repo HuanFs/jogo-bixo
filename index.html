@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<meta name="auhtor" content="Ruan Figuereido">
-	<meta charset="utf-8">
-	<title>Jogo do Bixo</title>
-	<link rel="stylesheet" type="text/css" href="assets/estilo/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toque do Bixo</title>
+    <link rel="stylesheet" type="text/css" href="assets/estilo/estilo.css">
 </head>
 <body>
-	<div id="app">
-		<div id="campos">
-			<input type="text" oninput="ValorTela()">
-			<button onclick="Limpar()">Limpar</button>
-			<button onclick="Verificar()">Verificar</button>
-			<button>Apostar</button>
-			<div id="imagem"></div>
-		</div>
-		
-	</div>
+    <div id="area-log">
+        <section id="informacoes">
+        </section>
 
-	<script src="assets/script/script.js"></script>
+
+
+        <section id="formulario">
+            <label for="usuario">Usuário:</label><br>
+            <input type="text" id="usuario" placeholder="nome de usuario"><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" placeholder="senha do usuario"><br>
+            <article>
+                <button id="entra" onclick="Logar()">Entrar no<br> App</button>
+                <button onclick="Clear()">Limpar<br>Tudo</button>
+                <button id="regra">Regras do<br>Jogo</button>
+            </article>
+        </section>
+    </div>
+
+    <script src="assets/script/script.js"></script>
 </body>
 </html>
