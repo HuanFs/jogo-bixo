@@ -337,14 +337,17 @@ function Clear(){
 function Apostar(){
     let wind=window.confirm(`Confirmar Aposta no ${display.value}?`);
     if(wind==true){
-        alert(`Você Apostou no ${display.value}`);
+        alert(`Você Apostou no ${display.value}!`);
         display.value="";
-    }else{
         document.getElementById('animal').remove();
         document.getElementById('texto').remove();
+        
+    }else{
         display.style.border="none";
-        alert('Aposta Cancelada!');
+        alert('Você cancelou a sua Aposta!');
         display.value="";
+        document.getElementById('animal').remove();
+        document.getElementById('texto').remove();
     }
 }
 
