@@ -333,3 +333,18 @@ function Clear(){
     usuario.value="";
     senha.value="";
 }
+
+function Apostar(){
+    let wind=window.confirm(`Confirmar Aposta no ${display.value}?`);
+    if(wind==true){
+        alert(`Você Apostou no ${display.value}`);
+        display.value="";
+    }else{
+        document.getElementById('animal').remove();
+        document.getElementById('texto').remove();
+        display.style.border="none";
+        alert('Aposta Cancelada!');
+        display.value="";
+    }
+}
+
